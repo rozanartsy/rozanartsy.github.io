@@ -23,8 +23,12 @@ header {
   height: auto;
 }
 
-header nav a {
-  color: 000;
+header nav a,
+header nav a:link,
+header nav a:visited,
+header nav a:hover,
+header nav a:active {
+  color: black;
   margin: 0 1rem;
   text-decoration: none;
   font-weight: 600;
