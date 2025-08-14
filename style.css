@@ -15,6 +15,10 @@ header {
   min-height: 100px;
 }
 
+header h1 {
+  font-weight: 700;
+}
+
 .logo {
   position: absolute;
   top: 10px;
