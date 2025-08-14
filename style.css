@@ -3,12 +3,12 @@ body {
   margin: 0;
   padding: 0;
   background: transparent;
-  color: 000;
+  color: black;
 }
 
 header {
   background: transparent;
-  color: 000;
+  color: black;
   padding: 1rem 1rem 2rem 1rem;
   text-align: center;
   position: relative;
