@@ -13,10 +13,21 @@ header {
   padding: 1rem;
 }
 
-h1 {
-  flex-grow: 1;
+.header-left .logo {
+  height: 2.5rem;
+  width: auto;
+}
+
+.header-center {
+  flex: 1;
   text-align: center;
-  margin: 0;
+}
+
+.header-right nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
 }
 
 .logo {
