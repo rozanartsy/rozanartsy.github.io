@@ -127,7 +127,7 @@ main {
 
 .contact-form button {
   padding: 0.6rem 1.2rem;
-  background: #e25555;
+  background: #1e90ff;
   border: none;
   color: white;
   cursor: pointer;
@@ -141,7 +141,7 @@ main {
 }
 
 .contact-image {
-  max-width: 150px;
+  max-width: 500px;
   display: block;
   margin: 0 auto 1.5rem auto;
   border-radius: 0;
