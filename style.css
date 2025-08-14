@@ -46,7 +46,7 @@ main {
 }
 
 .gallery .row {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .gallery .row img {
@@ -60,7 +60,7 @@ main {
 
 .gallery .row.two-images {
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   justify-content: center;
 }
 
