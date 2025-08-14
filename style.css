@@ -107,6 +107,14 @@ main {
   box-shadow: none;
 }
 
+.about-image {
+  max-width: 100%;
+  width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
