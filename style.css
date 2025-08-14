@@ -19,8 +19,9 @@ header {
 }
 
 .main-nav {
-  display: flex;
+  display: flex !important;;
   gap: 20px;
+  margin-left: auto;
 }
 
 .main-nav a {
