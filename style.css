@@ -113,9 +113,9 @@ main {
 }
 
 .contact-form label {
-  font-weight: bold;
   display: block;
-  margin-bottom: 0.3rem;
+  margin-bottom: 5px;
+  color: #0000cd;
 }
 
 .contact-form input,
