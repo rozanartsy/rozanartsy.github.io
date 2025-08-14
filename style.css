@@ -15,6 +15,7 @@ header {
 nav {
   display: flex;
   gap: 20px;
+  left: -50px; 
 }
   
 
