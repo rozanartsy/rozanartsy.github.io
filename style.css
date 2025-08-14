@@ -9,24 +9,21 @@ body, h1, h2, h3, h4, h5, h6, a, button {
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background: transparent;
-  color: black;
-  padding: 1rem 1rem 2rem 1rem;
-  text-align: center;
-  position: relative;
-  min-height: 100px;
+  justify-content: center;
+  padding: 1rem;
 }
 
-header h1 {
-  margin: 0 1rem;
+h1 {
+  flex-grow: 1;
+  text-align: center;
+  margin: 0;
 }
 
 .logo {
   position: static;
   order: -1;
-  height: 2.5rem;
-  width: auto;
+  margin-right: 1rem;
+  heidth: 2.5rem;
 }
 
 header nav a,
@@ -181,13 +178,13 @@ body.thank-you {
 }
 
 @media (max-width: 768px) {
-  .home-header {
-    display: flex;
+  header {
     flex-direction: column;
     align-items: center;
+    padding-top: 100px;
   }
-
-  .home-header .logo {
+  
+  .logo {
     order: -1;
     margin-bottom: 10px;
     height: 100px;
