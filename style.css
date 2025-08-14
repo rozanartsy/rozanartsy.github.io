@@ -113,25 +113,21 @@ main {
 }
 
 .contact-form label {
-  margin-bottom: 0;
   display: block;
   margin: 0;
   padding: 0;
-  color: #191970;
+  color: 	#4682b4;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 1rem;
+  line-height: 1.2;
 }
 
 .contact-form input,
 .contact-form textarea {
-  width: 100%;
-  padding: 0.5rem;
   margin-top: 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 1rem;
-  box-sizing: border-box;
-  resize: vertical;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: 	#4682b4;
 }
 
 .contact-form button {
