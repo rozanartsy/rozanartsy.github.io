@@ -8,10 +8,15 @@ body, h1, h2, h3, h4, h5, h6, a, button {
 
 header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: spase-between;
-  padding: 1rem 2rem;
 }
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+  
 
 .logo {
   height: 100px;
