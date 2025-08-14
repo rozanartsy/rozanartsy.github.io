@@ -58,7 +58,7 @@ main {
   height: auto;
   display: block;
   margin: 0 auto;
-  maring-bottom: 0.5rem; 
+  margin-bottom: 0.5rem; 
   border-radius: 0;
   box-shadow: none;
 }
@@ -147,7 +147,7 @@ footer {
 }
 
 body.thank-you {
-  font-family: sans-serif;
+  font-family: 'Roboto' , sans-serif;
   text-align: center;
   padding: 3rem;
   background: #f9f9f9;
