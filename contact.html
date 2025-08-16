@@ -16,6 +16,7 @@
     </nav>
   </header>
   <main>
+    <div id="contact-container">
     <img src="png/contact.png" alt="Contact" class="contact-image" />
     
     <form id="contact-form" 
@@ -54,13 +55,15 @@
       });
 
       if (response.ok) {
-        form.style.display = 'none';
-        contactImage.style.display = 'none';
+        contactContainer.style.display = 'none';
         thankYou.style.display = 'block';
       } else {
         alert("Oops! Something went wrong. Please try again.");
       }
-    });
+    } catch (error) {
+    alert("Oops! Something went wrong. Please try again.");
+   }
+ });
   </script>
 </body>
 </html>
