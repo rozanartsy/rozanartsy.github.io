@@ -19,37 +19,19 @@
     <div id="contact-container">
     <img src="png/contact.png" alt="Contact" class="contact-image" />
     
-    <form id="contact-form" 
-          action="https://formspree.io/f/xgvzzbvg" 
-          method="POST" 
-          class="contact-form">
+    <form action="https://formspree.io/f/xgvzzbvg" method="POST" class="contact-form">
       
-      <input type="text" id="name" name="name" placeholder="Your Name" required>
-      <input type="email" id="email" name="email" placeholder="Your Email" required>
-      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-    </div>
-    
-    <div id="thank-you" style="display:none; text-align:center; margin-top:20px;">
-      <h2>Thanks for your message! I’ll write back to you very soon.</h2>
-      <img src="png/Thank_you.png" alt="Thank-you" style="max-width:300px;">
+        <input type="hidden" name="_next" value="https://rozanartsy.github.io/thankyou.html">
+
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
     </div>
   </main>
   <footer>
     <p>© 2025 Kateryna Struhalova</p>
   </footer>
-  <script>
-    const form = document.getElementById('contact-form');
-    const thankYou = document.getElementById('thank-you');
-    const contactImage = document.getElementById('contact-image');
-    
-    form.addEventListener('submit', async (e) => {
-      setTimeout(() => {
-        contactContainer.style.display = 'none';
-        thankYou.style.display = 'block';
-      }, 100);
-    });
-  </script>
 </body>
 </html>
