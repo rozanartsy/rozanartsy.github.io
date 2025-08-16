@@ -23,13 +23,12 @@
           method="POST" 
           class="contact-form">
       
-      <input type="hidden" name="_next" value="https://rozanartsy.github.io/thankyou.html">
-      
       <input type="text" id="name" name="name" placeholder="Your Name" required>
       <input type="email" id="email" name="email" placeholder="Your Email" required>
       <textarea id="message" name="message" placeholder="Your Message" required></textarea>
       <button type="submit">Send</button>
     </form>
+    
     <div id="thank-you" style="display:none; text-align:center; margin-top:20px;">
       <h2>Thanks for your message! I’ll write back to you very soon.</h2>
       <img src="png/Thank_you.png" alt="Thank-you" style="max-width:300px;">
@@ -41,11 +40,13 @@
   <script>
     const form = document.getElementById('contact-form');
     const thankYou = document.getElementById('thank-you');
-
+    const contactImage = document.getElementById('contact-image');
+    
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
       const data = new FormData(form);
-
+      
+    try {
       const response = await fetch(form.action, {
         method: form.method,
         body: data,
@@ -54,6 +55,7 @@
 
       if (response.ok) {
         form.style.display = 'none';
+        contactImage.style.display = 'none';
         thankYou.style.display = 'block';
       } else {
         alert("Oops! Something went wrong. Please try again.");
