@@ -103,7 +103,7 @@ main {
 .intro {
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
+  margin-top: 0;
 }
 .profile-photo {
   width: 500px;
