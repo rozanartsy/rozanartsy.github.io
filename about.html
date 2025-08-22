@@ -1,49 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Rozan</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; line-height: 1.6; }
+    .container { width: 90%; max-width: 1200px; margin: 0 auto; padding-top: 30px; }
+
+    .intro { display: flex; align-items: center; margin-bottom: 80px; }
+    .intro img { width: 320px; border-radius: 15px; margin-right: 40px; }
+    .intro-text h2 { margin: 0; font-size: 28px; }
+    .intro-text h3 { margin: 10px 0; font-size: 22px; color: #444; }
+
+    .middle-block { display: flex; align-items: center; justify-content: space-between; margin-bottom: 80px; }
+    .middle-block img { width: 280px; border-radius: 10px; }
+    .middle-text { max-width: 400px; text-align: center; font-size: 20px; margin: 0 20px; }
+
+    .edu-block { display: flex; align-items: center; justify-content: space-between; margin-bottom: 80px; }
+    .edu-text { max-width: 500px; font-size: 18px; margin-right: 40px; }
+    .edu-block img { width: 320px; border-radius: 12px; }
+
+
+    .slogan { text-align: center; margin-top: 100px; font-size: 22px; font-style: italic; }
+    .slogan img { margin: 20px; vertical-align: middle; }
+    .slogan .book { width: 220px; }
+    .slogan .noai { width: 160px; }
+
+    .footer { text-align: center; margin-top: 50px; font-size: 16px; }
+    .footer a { color: #333; text-decoration: none; font-weight: bold; }
+  </style>
 </head>
 <body>
-  <header>
-    <img src="png/Logo.PNG" alt="Rozanartsy logo" class="logo" />
-    <nav>
-      <a href="index.html">My Works</a>
-      <a href="about.html">About Me</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-  <main>
-    <section class="about-collage">
-      <main class="about-container">
- 
-  <section class="intro">
-    <img src="png/collage1.png" alt="Kateryna Struhalova" class="profile-photo">
-    <div class="intro-text">
-      <h1>Hi, my name is Kateryna Struhalova!</h1>
-      <h2>My artist name is Rozan.</h2>
-    </div>
-  </section>
+  <div class="container">
 
-  <section class="collage-section">
-    <img src="png/collage2.png" alt="Collage 2" class="collage">
-    <p class="collage-text">I’m from Ukraine and live in a city by the sea.</p>
-    <img src="png/collage3.png" alt="Collage 3" class="collage">
-  </section>
-
-  <section class="text-collage">
-    <div class="left-text">
-      <p>I graduated from university in 2019 in Warsaw, Poland, where I studied Graphic Arts.</p>
-      <p>During my second year, I realized that creating and imagining things for children was what truly resonated with me.</p>
-      <p>That’s when my journey into children’s illustration began.</p>
+    <div class="intro">
+      <img src="png/your-photo.png" alt="Kateryna Struhalova">
+      <div class="intro-text">
+        <h2>Hi, my name is <strong>Kateryna Struhalova!</strong></h2>
+        <h3>My artist name is Rozan.</h3>
+      </div>
     </div>
-    <img src="png/collage4.png" alt="Collage 4" class="right-collage">
-    </section>
-  </main>
-  <footer>
-    <p>© 2025 Kateryna Struhalova</p>
-  </footer>
+
+    <div class="middle-block">
+      <img src="png/collage2.png" alt="Collage 2">
+      <p class="middle-text">I’m from Ukraine and live in a city by the sea.</p>
+      <img src="png/collage3.png" alt="Collage 3">
+    </div>
+
+    <div class="edu-block">
+      <div class="edu-text">
+        <p>
+          I graduated from university in 2019 in Warsaw, Poland, where I studied Graphic Arts.
+          <br><br>
+          During my second year, I realized that creating and imagining things for children was what truly resonated with me.
+          <br><br>
+          That’s when my journey into children’s illustration began.
+        </p>
+      </div>
+      <img src="png/collage4.png" alt="Collage 4">
+    </div>
+
+    <div class="slogan">
+      <p>I aim to create warm, whimsical worlds that spark curiosity and joy.</p>
+      <img class="book" src="png/collage6.png" alt="Book collage">
+      <img class="noai" src="png/noai.png" alt="NO AI">
+    </div>
+
+    <div class="footer">
+      Check out more here <a href="https://linktr.ee/rozanartsy">https://linktr.ee/rozanartsy</a>
+    </div>
+
+  </div>
 </body>
 </html>
