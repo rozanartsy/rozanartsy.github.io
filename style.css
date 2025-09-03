@@ -99,7 +99,7 @@ main {
 }
 
 .about-container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 40px 20px;
   font-family: Arial, sans-serif;
@@ -109,7 +109,7 @@ main {
 .intro {
   display: flex;
   align-items: center;
-  margin-top: 0;
+  gap: 20px;
 }
 .profile-photo {
   width: 500px;
