@@ -115,8 +115,7 @@ main {
   margin-bottom: 60px;
 }
 .profile-photo {
-  width: 220px;
-  border: 6px solid orange;
+  width: 350px;
   border-radius: 20px;
 }
 .intro-text h2 {
